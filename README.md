@@ -36,4 +36,4 @@ cd SubSniper
 ```
 python3 subsniper.py -d example.com -w path/to/wordlist
 ```
-***Note: Press Enter to use default wordlist.!***
+### Note: Press Enter to use default wordlist.!
