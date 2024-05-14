@@ -10,6 +10,9 @@
 
 ## Usage
 To start using ```SubSniper```, simply specify the target domain using the -d or --domain option and provide a wordlist using the -w or --wordlist option. If no wordlist is provided, ```SubSniper``` will default to using default.txt.
+```
+python3 subsniper.py -h
+```
 
 #### Example usage:
 ```
@@ -31,6 +34,6 @@ cd SubSniper
 
 > Run SubSniper using Python:
 ```
-python3 subsniper.py -d example.com -w wordlist.txt
+python3 subsniper.py -d example.com -w path/to/wordlist
 ```
 ***Note: Press Enter to use default wordlist.!***
