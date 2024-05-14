@@ -16,7 +16,7 @@ python3 subsniper.py -h
 
 #### Example usage:
 ```
-python3 subsniper.py -d example.com -w wordlist.txt
+python3 subsniper.py -d example.com -w path/to/wordlist
 ```
 ## Installation:
 
