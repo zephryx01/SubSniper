@@ -13,32 +13,24 @@ To start using ```SubSniper```, simply specify the target domain using the -d or
 
 #### Example usage:
 ```
-
 python3 subsniper.py -d example.com -w wordlist.txt
-
 ```
 ## Installation:
 
 > Clone the SubSniper repository from GitHub:
 ```
-
 git clone https://github.com/m1dn1ghtMHR/SubSniper.git
-
 ```
 
 > Navigate to the SubSniper directory:
 ```
-
 cd SubSniper
-
 ```
 
 > Ensure you have Python 3 installed on your system.
 
 > Run SubSniper using Python:
 ```
-
 python3 subsniper.py -d example.com -w wordlist.txt
-
 ```
 ***Note: Press Enter to use default wordlist.!***
