@@ -32,7 +32,7 @@ def request(url):
         pass
 
 def main():
-    parser = argparse.ArgumentParser(description="Created by M1dn1ght-MHR")
+    parser = argparse.ArgumentParser(description="Subdomains Enumerating Tool!")
     parser.add_argument("-d", "--domain", help="Target domain (ex. google.com)", required=True)
     parser.add_argument("-w", "--wordlist", help="Path of the wordlist")
     args = parser.parse_args()
