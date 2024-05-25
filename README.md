@@ -1,7 +1,7 @@
 # SubSniper
 ```SubSniper``` is a powerful subdomain enumeration tool designed to quickly discover subdomains of a target domain. With its simple yet efficient approach, ```SubSniper``` helps security professionals, penetration testers, and bug bounty hunters in their reconnaissance phase to identify potential entry points and vulnerabilities in web applications.
 
-![Example]()
+![Example](https://github.com/midnight-zain/SubSniper/blob/main/example.png)
 
 
 
