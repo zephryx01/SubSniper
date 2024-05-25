@@ -26,7 +26,7 @@ python3 subsniper.py -d example.com -w path/to/wordlist
 
 > Clone the SubSniper repository from GitHub:
 ```
-git clone https://github.com/m1dn1ghtMHR/SubSniper.git
+git clone https://github.com/midnight-zain/SubSniper.git
 ```
 
 > Navigate to the SubSniper directory:
