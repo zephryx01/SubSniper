@@ -1,10 +1,6 @@
 # SubSniper
 ```SubSniper``` is a powerful subdomain enumeration tool designed to quickly discover subdomains of a target domain. With its simple yet efficient approach, ```SubSniper``` helps security professionals, penetration testers, and bug bounty hunters in their reconnaissance phase to identify potential entry points and vulnerabilities in web applications.
 
-![Example](https://github.com/midnight-zain/SubSniper/blob/main/example.png)
-
-
-
 ## Features
 - **Fast and Efficient:** SubSniper utilizes multi-threading to perform subdomain enumeration swiftly.
 - **Customizable Wordlists:** Users can specify their own wordlists or rely on a default wordlist for subdomain discovery.
@@ -26,7 +22,7 @@ python3 subsniper.py -d example.com -w path/to/wordlist
 
 > Clone the SubSniper repository from GitHub:
 ```
-git clone https://github.com/midnight-zain/SubSniper.git
+git clone https://github.com/midknight-mihir/SubSniper.git
 ```
 
 > Navigate to the SubSniper directory:
