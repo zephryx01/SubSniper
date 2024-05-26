@@ -18,6 +18,8 @@ python3 subsniper.py -h
 ```
 python3 subsniper.py -d example.com -w path/to/wordlist
 ```
+### Note: Press Enter to use default wordlist.!
+
 ## Installation:
 
 > Clone the SubSniper repository from GitHub:
@@ -36,4 +38,3 @@ cd SubSniper
 ```
 python3 subsniper.py -d example.com -w path/to/wordlist
 ```
-### Note: Press Enter to use default wordlist.!
