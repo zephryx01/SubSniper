@@ -44,12 +44,15 @@ def main():
     print("Wordlist:", wordlist_path)
 
     with open(wordlist_path, 'r') as wordlist_file:
-        for line in wordlist_file:
-            subdomain = line.strip()
-            test_url = subdomain + '.' + target
-            response = request(test_url)
-            if response:
-                print("[+] Discovered Subdomain ----->", test_url)
+        try:
+            for line in wordlist_file:
+                subdomain = line.strip()
+                test_url = subdomain + '.' + target
+                response = request(test_url)
+                if response:
+                    print("[+] Discovered Subdomain ----->", test_url)
+        except KeyboardInterrupt:
+            exit 
 
 if __name__ == "__main__":
     main()
