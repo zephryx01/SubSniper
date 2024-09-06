@@ -19,7 +19,7 @@ def banner():
 ╚═════╝░░╚═════╝░╚═════╝░╚═════╝░╚═╝░░╚══╝╚═╝╚═╝░░░░░╚══════╝╚═╝░░╚═╝       
     """
     print(banner)
-    print_red("                                               by m1dn1ght-m1h1r")
+    print_red("                                               by zephryx01")
 
 if __name__ == "__main__":
     banner()
@@ -32,7 +32,7 @@ def request(url):
         pass
 
 def main():
-    parser = argparse.ArgumentParser(description="Subdomains Enumerating Tool!")
+    parser = argparse.ArgumentParser(description="Subdomains Enumerating Tool by Zephryx01")
     parser.add_argument("-d", "--domain", help="Target domain (ex. google.com)", required=True)
     parser.add_argument("-w", "--wordlist", help="Path of the wordlist")
     args = parser.parse_args()
