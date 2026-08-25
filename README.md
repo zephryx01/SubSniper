@@ -3,9 +3,9 @@
 
 
 ## Features
-- **Fast and Efficient:** SubSniper utilizes multi-threading to perform subdomain enumeration swiftly.
+- **Fast and Efficient:** SubSniper dispatches requests across a configurable thread pool (`-t`/`--threads`, default 20), with a per-request timeout (`--timeout`) so one slow or hanging host can't stall the whole scan.
+- **HTTPS with HTTP Fallback:** Each candidate is tried over HTTPS first; if the connection itself fails, SubSniper retries over plain HTTP before giving up.
 - **Customizable Wordlists:** Users can specify their own wordlists or rely on a default wordlist for subdomain discovery.
-- **Colorful Output:** SubSniper presents results in a visually appealing format, making it easy to distinguish discovered subdomains.
 - **User-Friendly:** With a straightforward command-line interface, SubSniper is easy to use for both beginners and experienced users.
 - **Flexible:** SubSniper allows users to customize various parameters to suit their specific needs, including the target domain and wordlist.
 
@@ -34,6 +34,11 @@ cd SubSniper
 ```
 
 > Ensure you have Python 3 installed on your system.
+
+> Install the required dependencies:
+```
+pip install -r requirements.txt
+```
 
 > Run SubSniper using Python:
 ```
