@@ -9,6 +9,16 @@
 - **User-Friendly:** With a straightforward command-line interface, SubSniper is easy to use for both beginners and experienced users.
 - **Flexible:** SubSniper allows users to customize various parameters to suit their specific needs, including the target domain and wordlist.
 
+## Screenshots
+
+### Concurrent scan with HTTPS→HTTP fallback
+Requests run in parallel across the thread pool; each candidate is tried over HTTPS first and falls back to HTTP when the connection itself fails, as shown by the `(http, 200)` annotation on every hit below.
+![Basic concurrent scan](docs/screenshots/basic-scan.png)
+
+### Custom threads and timeout
+`-t 5 --timeout 3` tunes the thread pool size and per-request timeout for the target at hand.
+![Scan with custom threads and timeout](docs/screenshots/custom-flags.png)
+
 ## Usage
 To start using ```SubSniper```, simply specify the target domain using the -d or --domain option and provide a wordlist using the -w or --wordlist option. If no wordlist is provided, ```SubSniper``` will default to using default.txt.
 ```
